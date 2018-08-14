@@ -10,8 +10,8 @@ let io = require('socket.io')(server);
 
 let users = [];
 
-server.listen(8080, ()=> {
-    console.log('server has been started at http://localhost:8080');
+server.listen(5000, ()=> {
+    console.log('server has been started at http://localhost:5000');
 });
 
 

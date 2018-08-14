@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "apps" : "npm install -g nodemon && npm install",
-     "start": "node server"
+    "apps": "npm install -g nodemon && npm install",
+    "start": "node server"
   },
   "author": "hasan misbah <hasanmisbah01@gmail.com>",
   "license": "ISC",
@@ -15,7 +15,7 @@
     "socket.io": "^2.1.1"
   },
   "engines": {
-    "node": "10.6.x",
-    "npm": "6.1.x"
-  } 
+    "node": "8.1.x",
+    "npm": "4.1.x"
+  }
 }

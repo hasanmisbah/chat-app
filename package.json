@@ -5,12 +5,17 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "apps" : "npm install -g nodemon && npm install"
+     "apps" : "npm install -g nodemon && npm install",
+     "start": "node server"
   },
   "author": "hasan misbah <hasanmisbah01@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "express": "^4.16.3",
     "socket.io": "^2.1.1"
-  }
+  },
+  "engines": {
+    "node": "10.6.x",
+    "npm": "6.1.x"
+  } 
 }

@@ -1,0 +1,21 @@
+{
+  "name": "chat-app",
+  "description": "A nodeJS based Chatting Apps",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
